@@ -1,0 +1,23 @@
+{
+    "name": "thisismzm/cloud-agnostic",
+    "description": "This is a cloud agnostic infrastructure",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Zare Moghadam",
+            "email": "mzmoghadam72@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "peridot-php/peridot": "^1.19",
+        "peridot-php/leo": "^1.6"
+    }
+}
